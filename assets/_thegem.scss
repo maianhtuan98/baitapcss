@@ -1,0 +1,75 @@
+$color-thegem: #3c3950;
+$color-blue: #00bcd4;
+.thegme-in,
+.thegem-text {
+  text-transform: uppercase;
+}
+
+#thegem {
+  .thegem-in {
+    display: flex;
+    flex-wrap: wrap;
+    @extend %with-web;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #fff;
+    align-items: center;
+    .thegem-logo {
+      display: flex;
+      font-size: 40px;
+     
+
+      span p {
+        align-items: center;
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 800;
+        color: #3c3950;
+        padding: 0 5px;
+      }
+    }
+    .thegem-text {
+      display: flex;
+      li {
+        padding: 0 10px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      p {
+        padding: 0 5px;
+        font-size: 14px;
+        font-weight: 800;
+        font-family: sans-serif;
+        color: $color-thegem;
+      }
+    }
+    .thegem-ic {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      li {
+        margin: 0 10px;
+      }
+      .tag {
+        position: relative;
+        width: 25px;
+        height: 25px;
+        top: 5px;
+
+        img {
+          width: 25px;
+          height: 25px;
+          top: 5px;
+        }
+        .tag-text {
+          position: absolute;
+          transform: translate(12px, -30px);
+          font-size: 14px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

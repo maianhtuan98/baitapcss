@@ -1,0 +1,32 @@
+@import 'contact';
+@import 'thegem';
+@import 'woocart';
+@import'product';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .cl-blue {
+    color: #33c9dd;
+  }
+  .size {
+    color: #a7b4bf;
+    padding-left: 20px;
+  }
+  .bg {
+    background-color: #f0f3f2;
+  }
+  
+  li {
+    list-style: none;
+  }
+  a {
+    color: #0993a9;
+  }
+  %with-web {
+    width: 1175px;
+    margin: 0 auto;
+    max-width: 100%;
+  }

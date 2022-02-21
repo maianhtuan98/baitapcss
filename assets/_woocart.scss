@@ -1,0 +1,59 @@
+$clor-woo: #80d2df;
+
+#woocart {
+  background-color: #e9f0ef;
+  .woocart-in {
+    display: flex;
+    @extend %with-web;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9f0ef;
+  }
+  .woocart-text {
+    flex-direction: column;
+    .woocart-ic {
+      position: relative;
+      top: -35px;
+      font-size: 50px;
+      p {
+        font-weight: 800;
+        font-family: sans-serif;
+      }
+      span {
+        font-family: system-ui;
+        font-weight: 100;
+      }
+    }
+    .woocart-link {
+      display: flex;
+      position: relative;
+      bottom: -40px;
+      span,
+      li {
+        color: $clor-woo;
+      }
+
+      li:hover {
+        color: #b4c1c8;
+        text-decoration: underline red;
+      }
+      span:hover {
+        color: #b4c1c8;
+        text-decoration: inherit red;
+        display: inherit;
+      }
+
+      i {
+        padding: 0 15px;
+      }
+    }
+  }
+  .woocart-icon {
+    font-size: 150px;
+    img{
+        width: 150px;
+        height: 150px;
+    }
+  }
+}

@@ -1,0 +1,463 @@
+.phone-number,
+.logo,
+.header-text,
+.header-wishlist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.phone-number {
+  font-size: 10px;
+  color: #5f727f;
+}
+
+.contact-us {
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f4f6f7;
+}
+
+.contact {
+  background-color: #f4f6f7;
+}
+
+.nav li a {
+  color: #5f727f;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #5f727f;
+}
+
+.contact-us li {
+  padding: 0 5px;
+  text-align: center;
+  color: #5f727f;
+}
+
+.My-Wishlist {
+  color: #fff;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px 9px;
+  background-color: #494c64;
+  border-radius: 5px;
+}
+
+.thegme-in,
+.thegem-text {
+  text-transform: uppercase;
+}
+
+#thegem .thegem-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100px;
+  background-color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#thegem .thegem-in .thegem-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 40px;
+}
+
+#thegem .thegem-in .thegem-logo span p {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 800;
+  color: #3c3950;
+  padding: 0 5px;
+}
+
+#thegem .thegem-in .thegem-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#thegem .thegem-in .thegem-text li {
+  padding: 0 10px;
+}
+
+#thegem .thegem-in .thegem-text li:hover {
+  cursor: pointer;
+}
+
+#thegem .thegem-in .thegem-text p {
+  padding: 0 5px;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: sans-serif;
+  color: #3c3950;
+}
+
+#thegem .thegem-in .thegem-ic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#thegem .thegem-in .thegem-ic li {
+  margin: 0 10px;
+}
+
+#thegem .thegem-in .thegem-ic .tag {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  top: 5px;
+}
+
+#thegem .thegem-in .thegem-ic .tag img {
+  width: 25px;
+  height: 25px;
+  top: 5px;
+}
+
+#thegem .thegem-in .thegem-ic .tag .tag-text {
+  position: absolute;
+  -webkit-transform: translate(12px, -30px);
+          transform: translate(12px, -30px);
+  font-size: 14px;
+  color: #fff;
+}
+
+#woocart {
+  background-color: #e9f0ef;
+}
+
+#woocart .woocart-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e9f0ef;
+}
+
+#woocart .woocart-text {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#woocart .woocart-text .woocart-ic {
+  position: relative;
+  top: -35px;
+  font-size: 50px;
+}
+
+#woocart .woocart-text .woocart-ic p {
+  font-weight: 800;
+  font-family: sans-serif;
+}
+
+#woocart .woocart-text .woocart-ic span {
+  font-family: system-ui;
+  font-weight: 100;
+}
+
+#woocart .woocart-text .woocart-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  bottom: -40px;
+}
+
+#woocart .woocart-text .woocart-link span,
+#woocart .woocart-text .woocart-link li {
+  color: #80d2df;
+}
+
+#woocart .woocart-text .woocart-link li:hover {
+  color: #b4c1c8;
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+}
+
+#woocart .woocart-text .woocart-link span:hover {
+  color: #b4c1c8;
+  -webkit-text-decoration: inherit red;
+          text-decoration: inherit red;
+  display: inherit;
+}
+
+#woocart .woocart-text .woocart-link i {
+  padding: 0 15px;
+}
+
+#woocart .woocart-icon {
+  font-size: 150px;
+}
+
+#woocart .woocart-icon img {
+  width: 150px;
+  height: 150px;
+}
+
+.ti-fullscreen {
+  color: red;
+}
+
+.ti-fullscreen:hover {
+  cursor: pointer;
+}
+
+.cart-table {
+  display: table;
+  border: 1px solid;
+  width: 100%;
+}
+
+.cart-table .row {
+  display: table-row;
+}
+
+.cart-table .row .col {
+  display: table-cell;
+}
+
+.box {
+  background-color: #99a9b5;
+  width: 60px;
+  height: 60px;
+}
+
+.bd {
+  border: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.product-header-text {
+  padding: 20px 0;
+  color: #5f727f;
+}
+
+.cart-table {
+  border-collapse: collapse;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  margin-bottom: 50px;
+}
+
+.cart-table .table-fist {
+  height: 60px;
+  background-color: #b6c6c9;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.cart-table .table-fist .th-product {
+  padding-left: 70px;
+  text-align: left;
+  width: 60%;
+}
+
+.cart-table .table-row {
+  height: 100px;
+  line-height: 100px;
+}
+
+.cart-table tr td {
+  text-align: center;
+}
+
+.cart-table tr td .option-cart {
+  width: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+.cart-table tr td .option-cart input {
+  width: 42%;
+  border: none;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.cart-table tr td .option-cart button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 27px;
+  height: 28px;
+  border: none;
+  background-color: #dfe5e8;
+}
+
+.cart-table tr td .option-cart button:hover {
+  cursor: pointer;
+}
+
+.cart-table tr .apply-btn {
+  text-align: left;
+  padding-left: 19px;
+}
+
+.cart-table tr .apply-btn input {
+  width: 240px;
+  height: 50px;
+  padding-left: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  color: #c1cad0;
+  margin-right: 15px;
+}
+
+.cart-table tr .apply-btn .aply {
+  width: 110px;
+  height: 50px;
+  color: #00bcd4;
+  font-weight: 600;
+  font-family: sans-serif;
+  background-color: #fff;
+  border: 3px solid #00bcd4;
+  font-size: 19px;
+}
+
+.cart-table tr .apply-btn .aply:hover {
+  cursor: pointer;
+}
+
+.cart-table tr .update {
+  text-align: left;
+}
+
+.cart-table tr .update .up-btn {
+  width: 185px;
+  height: 50px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #00bcd4;
+  border: none;
+  font-weight: 600;
+  font-family: -webkit-pictograph;
+  border-radius: 3px;
+}
+
+.cart-table tr .update .up-btn:hover {
+  cursor: pointer;
+}
+
+.cart-table tr .check {
+  text-align: left;
+}
+
+.cart-table tr .check .check-btn {
+  width: 190px;
+  height: 50px;
+  background-color: #393d50;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 19px;
+  position: relative;
+  border: none;
+  left: -2px;
+  border-radius: 3px;
+}
+
+.cart-table tr .check .check-btn:hover {
+  cursor: pointer;
+}
+
+.cart-table tr .check .check-btn .fa-check-circle {
+  padding-right: 10px;
+}
+
+.cart-table tr .product-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cart-table tr .product-list i,
+.cart-table tr .product-list .box,
+.cart-table tr .product-list p {
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cl-blue {
+  color: #33c9dd;
+}
+
+.size {
+  color: #a7b4bf;
+  padding-left: 20px;
+}
+
+.bg {
+  background-color: #f0f3f2;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #0993a9;
+}
+
+#thegem .thegem-in, #woocart .woocart-in {
+  width: 1175px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+/*# sourceMappingURL=index.css.map */

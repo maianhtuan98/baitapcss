@@ -1,0 +1,46 @@
+
+
+
+.phone-number,
+.logo,
+.header-text,
+.header-wishlist{
+  display: flex;
+}
+.phone-number{
+  font-size: 10px;
+  color: #5f727f;
+}
+.contact-us {
+  height: 55px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f6f7;
+}
+.contact {
+  background-color: #f4f6f7;
+}
+.nav li a {
+  color: #5f727f;
+}
+.nav{
+  display: flex;
+  color: #5f727f;
+}
+.contact-us li {
+  padding: 0 5px;
+  text-align: center;
+  color: #5f727f;
+}
+
+.My-Wishlist{
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  padding: 5px 9px;
+  background-color: #494c64;
+  border-radius: 5px;
+}
+
